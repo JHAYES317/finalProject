@@ -10,6 +10,10 @@
 }
 .text{
 	background-color: red;
+	text-align: center;
+}
+.bio{
+	text-align: center;
 }
 .Sessions{
 	background-color: green;

@@ -1,53 +1,116 @@
 /*addmethod*/
+.container{
+	display: grid;
+	grid-gap: 20px;
+}
 .services{
 	background-color: orange;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .Lessons{
 	background-color: pink;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .rates{
 	background-color: gray;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .text{
 	background-color: red;
 	text-align: center;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .bio{
 	text-align: center;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	background-color: yellow;
 }
 .Sessions{
 	background-color: green;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .pricing{
 	background-color: yellow;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .Accompaniment{
 	background-color: purple;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .fees{
 	background-color: brown;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .Address{
 	background-color: blue;
 	text-align: center;
 	color: white;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .links{
 	text-align: left;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	background-color: gray;
 }
 
 .Links{
 	text-align: left;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	background-color: pink;
 }
 
 .title{
 	text-align: center;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	background-color: orange;
 }
 
 .img-container1{
 	text-align: center;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .img-container2{
 	text-align: center;
+	font-weight: 300;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
+
+@media only screen and (max-width: 750px){
+	  		body{
+			background-color: yellow;
+		    }
+		    .menu{
+		    	background-color: white;
+		    }
+	}
+@media only screen and (max-width: 500px){
+	  		body{
+			background-color: green;
+		    }
+		    .address{
+		    	background-color: purple;
+		    }
+	}
+@media only screen and (max-width: 250px){
+	  		body{
+			background-color: red;
+		    }
+		    .park{
+		    	background-color: silver;
+		    }
+	}

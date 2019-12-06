@@ -12,17 +12,21 @@
 	background-color: pink;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	text-align: center;
 }
 .rates{
 	background-color: gray;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	text-align: center;
+	color: white;
 }
 .text{
 	background-color: red;
 	text-align: center;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	color:white;
 }
 .bio{
 	text-align: center;
@@ -34,21 +38,29 @@
 	background-color: green;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	text-align:center;
+	color:white;
 }
 .pricing{
 	background-color: yellow;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	text-align: center;
+
 }
 .Accompaniment{
 	background-color: purple;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	color: white;
+	text-align: center;
 }
 .fees{
 	background-color: brown;
 	font-weight: 300;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	text-align: center;
+	color: white;
 }
 .Address{
 	background-color: blue;
